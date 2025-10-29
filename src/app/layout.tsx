@@ -1,16 +1,11 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import {Quantico} from 'next/font/google';
+const quantico = Quantico({
+  subsets: ['latin'],
+  weight:["400"],
+  variable: '--font-quantico-sans',
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,9 +20,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background`}
+        className='antialiased bg-(--background) w-full h-full '
       >
-        <div className='w-full h-[10%]'><a>JumpStart</a></div>
+        <div className='w-full h-[10%] text-(--foreground) p-[26px] flex justify-around'><a className={`${quantico.variable} w-[15%]  border font-quantico border-white border-solid p-[4px] self-center justify-center flex rounded-xl `}>JumpStart</a>
+                    <span className='list-none flex w-[30%] justify-around items-center'>
+                        <li>About</li>
+                        <li>Solutions</li>
+                        <li>Contact</li>
+                    </span>
+                </div>
         {children}
       </body>
     </html>

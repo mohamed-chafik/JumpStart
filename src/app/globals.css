@@ -1,10 +1,15 @@
-@import "tailwindcss";
+/* app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --background: #111;
-  --Primary-color: #e8f9f7;
-  --Secondary-color: #d7623e;
-  --Third-color: #383838;
+  --foreground: #e8f9f7;
+  --second: #d7623e;
+  --third: #383838;
+    width:100%;
+    height: 100%;
 }
 
 

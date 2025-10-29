@@ -1,9 +1,9 @@
 import Image from "next/image";
-
+import Header from '../components/Header.tsx';
 export default function Home() {
   return (
   <>
-    <div className="text-white">hello</div>
-        </>
+    <Header/>
+    </>
      );
 }

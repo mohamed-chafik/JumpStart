@@ -1,5 +1,6 @@
-// tailwind.config.js
-/** @type {import('tailwindcss').Config} */
+
+import { fontFamily } from 'tailwindcss/defaultTheme';
+ @type {import('tailwindcss').Config}
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,16 +9,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        primary: {
-            background: 'var(--background)',
-            primary: 'var(--Primary-color)', 
-            secondary: 'var(--secondary-color)',
-            third: 'var(--third-color)',
-        }
-      },
+      
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        quantico: ['var(--font-quantico)'],
       },
     },
   },
