@@ -22,8 +22,8 @@ export default function RootLayout({
       <body
         className='antialiased bg-(--background) w-full h-full '
       >
-        <div className='w-full h-[10%] text-(--foreground) p-[26px] flex justify-around'><a className={`${quantico.variable} w-[15%]  border font-quantico border-white border-solid p-[4px] self-center justify-center flex rounded-xl `}>JumpStart</a>
-                    <span className='list-none flex w-[30%] justify-around items-center'>
+        <div className='w-full h-[10%] text-(--foreground) p-[26px] flex justify-around items-center'><a className={`${quantico.variable} w-[15%]  border font-quantico border-white border-solid p-[4px] self-center justify-center flex rounded-[10px]`}>JumpStart</a>
+                    <span className='list-none flex w-[30%] justify-around items-center bg-(--third) rounded-[10px]'>
                         <li>About</li>
                         <li>Solutions</li>
                         <li>Contact</li>
