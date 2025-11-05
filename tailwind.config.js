@@ -1,6 +1,4 @@
-
-import { fontFamily } from 'tailwindcss/defaultTheme';
- @type {import('tailwindcss').Config}
+@type {import('tailwindcss').Config}
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,10 +6,9 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      
+    extend: { 
       fontFamily: {
-        quantico: ['var(--font-quantico)'],
+        quantico: ['"Quantico"', 'sans-serif'],
       },
     },
   },

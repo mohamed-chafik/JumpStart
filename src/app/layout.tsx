@@ -1,11 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import {Quantico} from 'next/font/google';
-const quantico = Quantico({
-  subsets: ['latin'],
-  weight:["400"],
-  variable: '--font-quantico-sans',
-})
+import { quanticoFont } from './fonts';
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -22,12 +18,8 @@ export default function RootLayout({
       <body
         className='antialiased bg-(--background) w-full h-full '
       >
-        <div className='w-full h-[10%] text-(--foreground) p-[26px] flex justify-around items-center'><a className={`${quantico.variable} w-[15%]  border font-quantico border-white border-solid p-[4px] self-center justify-center flex rounded-[10px]`}>JumpStart</a>
-                    <span className='list-none flex w-[30%] justify-around items-center bg-(--third) rounded-[10px]'>
-                        <li>About</li>
-                        <li>Solutions</li>
-                        <li>Contact</li>
-                    </span>
+        <div className='w-full h-[10%] text-(--foreground) p-[26px] flex justify-around items-center'>
+        <a className={`border  border-white border-solid p-[4px] self-center justify-center flex rounded-[10px] ${quanticoFont.className}`}>JumpStart</a>           
                 </div>
         {children}
       </body>
