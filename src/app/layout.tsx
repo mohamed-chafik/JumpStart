@@ -15,13 +15,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className='antialiased bg-(--background) w-full h-full '
-      >
-        <div className='w-full h-[10%] text-(--foreground) p-[26px] flex justify-around items-center'>
-        <a className={`border  border-white border-solid p-[4px] self-center justify-center flex rounded-[10px] ${quanticoFont.className}`}>JumpStart</a>           
+      <body className='antialiased bg-(--background) w-full h-full'>
+        <div className='w-full h-[10%] text-(--foreground) p-[26px] flex justify-around items-center absolute'>
+        <a className={`border  border-white border-solid p-[4px] self-center justify-center flex rounded-[10px] absolute z-[1] ${quanticoFont.className}`}>JumpStart</a>           
                 </div>
         {children}
+
+
       </body>
     </html>
   );
