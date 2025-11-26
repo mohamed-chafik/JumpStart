@@ -1,1 +1,2 @@
 # JumpStart
+setup fast
