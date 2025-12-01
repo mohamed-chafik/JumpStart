@@ -1,22 +1,280 @@
-[00:00:01.343] Server  LOG      ✓ Ready in 941ms
-[00:01:12.852] Server  LOG      ○ Compiling / ...
-[00:01:18.211] Server  WARN     ⚠ Cross origin request detected from 192.168.1.104 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
-Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:01:18.297] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:18.513] Browser WARN    Image with src "http://192.168.1.104:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:01:31.413] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:31.561] Browser WARN    Image with src "http://192.168.1.104:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:01:58.963] Browser ERROR   ./app/page.tsx:4:10
-Parsing ecmascript source code failed
-  2 |
-  3 | export default function Home() {
-> 4 |   return (
-    |          ^
-> 5 |
-    | ^
-> 6 |   );
-    | ^^^^
-  7 | }
-  8 |
+[00:00:01.312] Server  LOG      ✓ Ready in 954ms
+[00:00:04.387] Server  LOG      ○ Compiling / ...
+[00:00:05.000] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
 
-Parenthesized expression cannot be empty
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:07.507] Browser ERROR   uncaughtError: Error: ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:07.802] Browser ERROR   ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:08.158] Browser ERROR   ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:45.542] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:45.543] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:45.794] Browser ERROR   ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:31.866] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.234] Browser ERROR   uncaughtError: Error: ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.477] Browser ERROR   ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:32.588] Browser ERROR   ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:24.897] Server  LOG      ✓ Compiled in 612ms
+[00:07:25.237] Server  ERROR    ⨯ ReferenceError: jetbrainsMono is not defined
+[00:07:26.496] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:26.810] Browser ERROR   uncaughtError: ReferenceError: jetbrainsMono is not defined
+[00:07:49.668] Server  ERROR    ⨯ ReferenceError: jetbrainsMono is not defined
+[00:07:50.306] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:50.795] Browser ERROR   uncaughtError: ReferenceError: jetbrainsMono is not defined
+[00:08:02.839] Server  WARN    Image with src "/back.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:08:03.468] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:03.799] Browser WARN    Image with src "/back.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:08:03.799] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:08:27.185] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:27.420] Browser WARN    Image with src "/back.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:08:27.420] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:47:48.167] Server  WARN    Image with src "/back.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:47:49.461] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:49.886] Browser WARN    Image with src "/back.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:47:49.886] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:48:13.224] Server  WARN    Image with src "/back.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:48:14.567] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:48:15.108] Browser WARN    Image with src "/back.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:48:15.109] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
