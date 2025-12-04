@@ -1,147 +1,1139 @@
-[00:00:01.240] Server  LOG      ✓ Ready in 892ms
-[00:00:05.823] Server  LOG      ○ Compiling / ...
-[00:00:07.679] Server  ERROR    ⨯ ./components/Menubar.tsx:11:25
-Ecmascript file had an error
-   9 | } from "@/components/ui/menubar"
-  10 |
-> 11 | export default function Menubar(){
-     |                         ^^^^^^^
-  12 |   return(
-  13 |   <>
-  14 |    <Menubar>
+[00:00:01.260] Server  LOG      ✓ Ready in 913ms
+[00:00:07.393] Server  LOG      ○ Compiling / ...
+[00:00:10.858] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:59.066] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:29.786] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:41.661] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:55.866] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:13.431] Server  LOG      ✓ Compiled in 49ms
+[00:18:47.113] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:18.622] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
 
-the name `Menubar` is defined multiple times
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:39:18.624] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:39:18.625] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:39:18.626] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:39:18.627] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:39:18.628] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:39:19.257] Browser ERROR   ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+https://nextjs.org/docs/messages/module-not-found
+[00:39:33.257] Browser ERROR   ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+https://nextjs.org/docs/messages/module-not-found
+[01:12:36.154] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:36.264] Browser ERROR   ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+https://nextjs.org/docs/messages/module-not-found
+[01:12:37.353] Browser ERROR   ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+https://nextjs.org/docs/messages/module-not-found
+[01:12:37.478] Browser ERROR   ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+https://nextjs.org/docs/messages/module-not-found
+[01:12:38.615] Browser ERROR   uncaughtError: Error: ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:38.767] Browser ERROR   ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+https://nextjs.org/docs/messages/module-not-found
+[01:12:39.025] Browser ERROR   ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+https://nextjs.org/docs/messages/module-not-found
+[01:13:03.381] Server  LOG      ✓ Compiled in 36ms
+[01:13:04.296] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:13:32.994] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:13:32.995] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:13:32.996] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:13:32.997] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:13:32.998] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:13:32.998] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:13:33.258] Browser ERROR   ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+https://nextjs.org/docs/messages/module-not-found
+[01:16:36.417] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+Error while looking up import map: Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:36.420] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+Error while looking up import map: Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:36.421] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+Error while looking up import map: Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:36.423] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+Error while looking up import map: Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:36.424] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+Error while looking up import map: Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:36.426] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+Error while looking up import map: Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:37.257] Browser ERROR   ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+Error while looking up import map: Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:04.426] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+Error while looking up import map: Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:17:04.429] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+Error while looking up import map: Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:17:04.431] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+Error while looking up import map: Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:17:04.432] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+Error while looking up import map: Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:17:04.434] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+Error while looking up import map: Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:17:04.435] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+Error while looking up import map: Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:17:05.258] Browser ERROR   ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+Error while looking up import map: Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:16.501] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+Error while looking up import map: Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:17:17.113] Browser ERROR   uncaughtError: Error: ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+Error while looking up import map: Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:17:17.534] Browser ERROR   ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+Error while looking up import map: Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:17.534] Browser ERROR   ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+Error while looking up import map: Unknown weight 500 for font Rubik Dirt.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 500 for font Rubik Dirt.
+  Available weights: 400
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:28.041] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Rubik Dirt.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Rubik Dirt.
+  Available weights: 400
+Error while looking up import map: Unknown weight 600 for font Rubik Dirt.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Rubik Dirt.
+  Available weights: 400
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:17:28.188] Browser ERROR   ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Rubik Dirt.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Rubik Dirt.
+  Available weights: 400
+Error while looking up import map: Unknown weight 600 for font Rubik Dirt.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Rubik Dirt.
+  Available weights: 400
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:34.039] Server  LOG      ✓ Compiled in 1045ms
+[01:17:35.051] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:22:00.183] Server  LOG      ✓ Compiled in 36ms
+[01:22:16.511] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:25:45.257] Browser ERROR   ./components/Quote.tsx:4:19
+Parsing ecmascript source code failed
+  2 |   return (
+  3 |   <>
+> 4 |    <div className=`${rubik.className} `>
+    |                   ^^^
+  5 |     JumpStart Your Next Project
+  6 |     </div>   
+  7 |   </>
+
+Expected '</', got ''
 
 Import trace:
   Server Component:
-    ./components/Menubar.tsx
-    ./components/Header.tsx
+    ./components/Quote.tsx
+    ./components/Home.tsx
     ./app/page.tsx
+[01:26:22.874] Server  ERROR    ⨯ ReferenceError: rubik is not defined
+[01:26:23.151] Browser ERROR   uncaughtError: ReferenceError: rubik is not defined
+[01:27:20.907] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:31:44.826] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:32:41.994] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:35:06.257] Browser ERROR   ./components/Quote.tsx:10:47
+Parsing ecmascript source code failed
+   8 |   return (
+   9 |   <>
+> 10 |    <div className={rubik.className} className=`{${rubik.className} text-6xl text-white w-fit h-fit}`>
+     |                                               ^^^^
+  11 |     JumpStart Your Next Project
+  12 |     </div>   
+  13 |   </>
 
-
-[00:00:09.783] Browser ERROR   uncaughtError: Error: ./components/Menubar.tsx:11:25
-Ecmascript file had an error
-   9 | } from "@/components/ui/menubar"
-  10 |
-> 11 | export default function Menubar(){
-     |                         ^^^^^^^
-  12 |   return(
-  13 |   <>
-  14 |    <Menubar>
-
-the name `Menubar` is defined multiple times
+Expected '</', got '{'
 
 Import trace:
   Server Component:
-    ./components/Menubar.tsx
-    ./components/Header.tsx
+    ./components/Quote.tsx
+    ./components/Home.tsx
     ./app/page.tsx
+[01:35:08.306] Server  ERROR    ⨯ ./components/Quote.tsx:10:47
+Parsing ecmascript source code failed
+   8 |   return (
+   9 |   <>
+> 10 |    <div className={rubik.className} className=`{${rubik.className} text-6xl text-white w-fit h-fit}`>
+     |                                               ^^^^
+  11 |     JumpStart Your Next Project
+  12 |     </div>   
+  13 |   </>
 
-
-[00:00:11.427] Browser ERROR   ./components/Menubar.tsx:11:25
-Ecmascript file had an error
-   9 | } from "@/components/ui/menubar"
-  10 |
-> 11 | export default function Menubar(){
-     |                         ^^^^^^^
-  12 |   return(
-  13 |   <>
-  14 |    <Menubar>
-
-the name `Menubar` is defined multiple times
+Expected '</', got '{'
 
 Import trace:
   Server Component:
-    ./components/Menubar.tsx
-    ./components/Header.tsx
+    ./components/Quote.tsx
+    ./components/Home.tsx
     ./app/page.tsx
-[00:00:11.427] Browser ERROR   ./components/Menubar.tsx:11:25
-Ecmascript file had an error
-   9 | } from "@/components/ui/menubar"
-  10 |
-> 11 | export default function Menubar(){
-     |                         ^^^^^^^
-  12 |   return(
-  13 |   <>
-  14 |    <Menubar>
 
-the name `Menubar` is defined multiple times
+
+[01:35:09.424] Browser ERROR   uncaughtError: Error: ./components/Quote.tsx:10:47
+Parsing ecmascript source code failed
+   8 |   return (
+   9 |   <>
+> 10 |    <div className={rubik.className} className=`{${rubik.className} text-6xl text-white w-fit h-fit}`>
+     |                                               ^^^^
+  11 |     JumpStart Your Next Project
+  12 |     </div>   
+  13 |   </>
+
+Expected '</', got '{'
 
 Import trace:
   Server Component:
-    ./components/Menubar.tsx
-    ./components/Header.tsx
+    ./components/Quote.tsx
+    ./components/Home.tsx
     ./app/page.tsx
-[00:00:11.427] Browser ERROR   ./components/Menubar.tsx:11:25
-Ecmascript file had an error
-   9 | } from "@/components/ui/menubar"
-  10 |
-> 11 | export default function Menubar(){
-     |                         ^^^^^^^
-  12 |   return(
-  13 |   <>
-  14 |    <Menubar>
 
-the name `Menubar` is defined multiple times
+
+[01:35:09.607] Browser ERROR   ./components/Quote.tsx:10:47
+Parsing ecmascript source code failed
+   8 |   return (
+   9 |   <>
+> 10 |    <div className={rubik.className} className=`{${rubik.className} text-6xl text-white w-fit h-fit}`>
+     |                                               ^^^^
+  11 |     JumpStart Your Next Project
+  12 |     </div>   
+  13 |   </>
+
+Expected '</', got '{'
 
 Import trace:
   Server Component:
-    ./components/Menubar.tsx
-    ./components/Header.tsx
+    ./components/Quote.tsx
+    ./components/Home.tsx
     ./app/page.tsx
-[00:00:36.702] Browser ERROR   ./components/Menubar.tsx:11:25
-Ecmascript file had an error
-   9 | } from "@/components/ui/menubar"
-  10 |
-> 11 | export default function Menubar(){
-     |                         ^^^^^^^
-  12 |   return(
-  13 |  
-  14 |    <Menubar>
+[01:35:09.865] Browser ERROR   ./components/Quote.tsx:10:47
+Parsing ecmascript source code failed
+   8 |   return (
+   9 |   <>
+> 10 |    <div className={rubik.className} className=`{${rubik.className} text-6xl text-white w-fit h-fit}`>
+     |                                               ^^^^
+  11 |     JumpStart Your Next Project
+  12 |     </div>   
+  13 |   </>
 
-the name `Menubar` is defined multiple times
+Expected '</', got '{'
 
 Import trace:
   Server Component:
-    ./components/Menubar.tsx
-    ./components/Header.tsx
+    ./components/Quote.tsx
+    ./components/Home.tsx
     ./app/page.tsx
-[00:00:59.427] Browser ERROR   ./components/Menubar.tsx:11:25
-Ecmascript file had an error
-   9 | } from "@/components/ui/menubar";
-  10 |
-> 11 | export default function Menubar(){
-     |                         ^^^^^^^
-  12 |   return(
-  13 |  
-  14 |    <Menubar>
-
-the name `Menubar` is defined multiple times
-
-Import trace:
-  Server Component:
-    ./components/Menubar.tsx
-    ./components/Header.tsx
-    ./app/page.tsx
-[00:01:40.664] Server  LOG      ✓ Compiled in 34ms
-[00:01:41.195] Server  WARN    Image with src "/back.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
-Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:01:42.207] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:43.428] Browser WARN    Image with src "/back.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
-Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:01:52.416] Server  ERROR    ⨯ ReferenceError: Menuy is not defined
-[00:01:52.587] Server  LOG      ✓ Compiled in 23ms
-[00:01:53.428] Browser ERROR   uncaughtError: ReferenceError: Menuy is not defined
-[00:01:55.557] Server  WARN    Image with src "/back.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
-Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:01:55.723] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:01:56.154] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:56.331] Server  LOG      ✓ Compiled in 7ms
-[00:01:56.418] Browser WARN    Image with src "/back.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
-Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:01:58.161] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:58.461] Browser WARN    Image with src "/back.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
-Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:02:33.037] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:33.435] Browser WARN    Image with src "/back.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
-Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:35:50.125] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:47:28.280] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:51:25.264] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:55:12.531] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

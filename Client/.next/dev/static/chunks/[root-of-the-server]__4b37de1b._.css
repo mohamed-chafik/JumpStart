@@ -42,6 +42,7 @@
 
 @layer theme {
   :root, :host {
+    --color-white: #fff;
     --spacing: .25rem;
     --text-xs: .75rem;
     --text-xs--line-height: calc(1 / .75);
@@ -394,6 +395,14 @@
     height: 8%;
   }
 
+  .h-\[12\%\] {
+    height: 12%;
+  }
+
+  .h-\[100vh\] {
+    height: 100vh;
+  }
+
   .h-full {
     height: 100%;
   }
@@ -404,6 +413,10 @@
 
   .w-4 {
     width: calc(var(--spacing) * 4);
+  }
+
+  .w-fit {
+    width: fit-content;
   }
 
   .w-full {
@@ -475,6 +488,10 @@
     background-color: var(--popover);
   }
 
+  .bg-\[url\(\'\/back\.png\'\)\] {
+    background-image: url("/back.png");
+  }
+
   .fill-current {
     fill: currentColor;
   }
@@ -503,8 +520,20 @@
     padding-right: calc(var(--spacing) * 2);
   }
 
+  .pr-\[30\%\] {
+    padding-right: 30%;
+  }
+
+  .pr-\[40\%\] {
+    padding-right: 40%;
+  }
+
   .pl-8 {
     padding-left: calc(var(--spacing) * 8);
+  }
+
+  .pl-\[77px\] {
+    padding-left: 77px;
   }
 
   .text-sm {
@@ -520,6 +549,15 @@
   .text-xs {
     font-size: var(--text-xs);
     line-height: var(--tw-leading, var(--text-xs--line-height));
+  }
+
+  .text-\[13px\] {
+    font-size: 13px;
+  }
+
+  .font-\[16px\] {
+    --tw-font-weight: 16px;
+    font-weight: 16px;
   }
 
   .font-black {
@@ -547,6 +585,10 @@
 
   .text-popover-foreground {
     color: var(--popover-foreground);
+  }
+
+  .text-white {
+    color: var(--color-white);
   }
 
   .shadow-lg {
@@ -584,6 +626,18 @@
   .select-none {
     -webkit-user-select: none;
     user-select: none;
+  }
+
+  @media (hover: hover) {
+    .hover\:bg-accent:hover {
+      background-color: var(--accent);
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:text-accent-foreground:hover {
+      color: var(--accent-foreground);
+    }
   }
 
   .focus\:bg-accent:focus {
