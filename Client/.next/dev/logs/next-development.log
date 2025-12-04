@@ -1,280 +1,147 @@
-[00:00:01.312] Server  LOG      ✓ Ready in 954ms
-[00:00:04.387] Server  LOG      ○ Compiling / ...
-[00:00:05.000] Server  ERROR    ⨯ ./app/layout.tsx
-Module not found: Can't resolve 'next/font/google/target.css'
-Unknown font
+[00:00:01.240] Server  LOG      ✓ Ready in 892ms
+[00:00:05.823] Server  LOG      ○ Compiling / ...
+[00:00:07.679] Server  ERROR    ⨯ ./components/Menubar.tsx:11:25
+Ecmascript file had an error
+   9 | } from "@/components/ui/menubar"
+  10 |
+> 11 | export default function Menubar(){
+     |                         ^^^^^^^
+  12 |   return(
+  13 |   <>
+  14 |    <Menubar>
 
-Debug info:
-- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
-- Execution of resolve failed
-- Execution of resolve_internal failed
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown font
-Error while looking up import map: Unknown font
+the name `Menubar` is defined multiple times
 
-Debug info:
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown font
+Import trace:
+  Server Component:
+    ./components/Menubar.tsx
+    ./components/Header.tsx
+    ./app/page.tsx
 
 
-https://nextjs.org/docs/messages/module-not-found
+[00:00:09.783] Browser ERROR   uncaughtError: Error: ./components/Menubar.tsx:11:25
+Ecmascript file had an error
+   9 | } from "@/components/ui/menubar"
+  10 |
+> 11 | export default function Menubar(){
+     |                         ^^^^^^^
+  12 |   return(
+  13 |   <>
+  14 |    <Menubar>
+
+the name `Menubar` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./components/Menubar.tsx
+    ./components/Header.tsx
+    ./app/page.tsx
 
 
-[00:00:07.507] Browser ERROR   uncaughtError: Error: ./app/layout.tsx
-Module not found: Can't resolve 'next/font/google/target.css'
-Unknown font
+[00:00:11.427] Browser ERROR   ./components/Menubar.tsx:11:25
+Ecmascript file had an error
+   9 | } from "@/components/ui/menubar"
+  10 |
+> 11 | export default function Menubar(){
+     |                         ^^^^^^^
+  12 |   return(
+  13 |   <>
+  14 |    <Menubar>
 
-Debug info:
-- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
-- Execution of resolve failed
-- Execution of resolve_internal failed
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown font
-Error while looking up import map: Unknown font
+the name `Menubar` is defined multiple times
 
-Debug info:
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown font
+Import trace:
+  Server Component:
+    ./components/Menubar.tsx
+    ./components/Header.tsx
+    ./app/page.tsx
+[00:00:11.427] Browser ERROR   ./components/Menubar.tsx:11:25
+Ecmascript file had an error
+   9 | } from "@/components/ui/menubar"
+  10 |
+> 11 | export default function Menubar(){
+     |                         ^^^^^^^
+  12 |   return(
+  13 |   <>
+  14 |    <Menubar>
 
+the name `Menubar` is defined multiple times
 
-https://nextjs.org/docs/messages/module-not-found
+Import trace:
+  Server Component:
+    ./components/Menubar.tsx
+    ./components/Header.tsx
+    ./app/page.tsx
+[00:00:11.427] Browser ERROR   ./components/Menubar.tsx:11:25
+Ecmascript file had an error
+   9 | } from "@/components/ui/menubar"
+  10 |
+> 11 | export default function Menubar(){
+     |                         ^^^^^^^
+  12 |   return(
+  13 |   <>
+  14 |    <Menubar>
 
+the name `Menubar` is defined multiple times
 
-[00:00:07.802] Browser ERROR   ./app/layout.tsx
-Module not found: Can't resolve 'next/font/google/target.css'
-Unknown font
+Import trace:
+  Server Component:
+    ./components/Menubar.tsx
+    ./components/Header.tsx
+    ./app/page.tsx
+[00:00:36.702] Browser ERROR   ./components/Menubar.tsx:11:25
+Ecmascript file had an error
+   9 | } from "@/components/ui/menubar"
+  10 |
+> 11 | export default function Menubar(){
+     |                         ^^^^^^^
+  12 |   return(
+  13 |  
+  14 |    <Menubar>
 
-Debug info:
-- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
-- Execution of resolve failed
-- Execution of resolve_internal failed
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown font
-Error while looking up import map: Unknown font
+the name `Menubar` is defined multiple times
 
-Debug info:
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown font
+Import trace:
+  Server Component:
+    ./components/Menubar.tsx
+    ./components/Header.tsx
+    ./app/page.tsx
+[00:00:59.427] Browser ERROR   ./components/Menubar.tsx:11:25
+Ecmascript file had an error
+   9 | } from "@/components/ui/menubar";
+  10 |
+> 11 | export default function Menubar(){
+     |                         ^^^^^^^
+  12 |   return(
+  13 |  
+  14 |    <Menubar>
 
-https://nextjs.org/docs/messages/module-not-found
-[00:00:08.158] Browser ERROR   ./app/layout.tsx
-Module not found: Can't resolve 'next/font/google/target.css'
-Unknown font
+the name `Menubar` is defined multiple times
 
-Debug info:
-- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
-- Execution of resolve failed
-- Execution of resolve_internal failed
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown font
-Error while looking up import map: Unknown font
-
-Debug info:
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown font
-
-https://nextjs.org/docs/messages/module-not-found
-[00:02:45.542] Server  ERROR    ⨯ ./app/layout.tsx
-Module not found: Can't resolve 'next/font/google/target.css'
-Unknown font
-
-Debug info:
-- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
-- Execution of resolve failed
-- Execution of resolve_internal failed
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown font
-Error while looking up import map: Unknown font
-
-Debug info:
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown font
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:02:45.543] Server  ERROR    ⨯ ./app/layout.tsx
-Module not found: Can't resolve 'next/font/google/target.css'
-Unknown font
-
-Debug info:
-- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
-- Execution of resolve failed
-- Execution of resolve_internal failed
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown font
-Error while looking up import map: Unknown font
-
-Debug info:
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown font
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:02:45.794] Browser ERROR   ./app/layout.tsx
-Module not found: Can't resolve 'next/font/google/target.css'
-Unknown font
-
-Debug info:
-- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
-- Execution of resolve failed
-- Execution of resolve_internal failed
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown font
-Error while looking up import map: Unknown font
-
-Debug info:
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown font
-
-https://nextjs.org/docs/messages/module-not-found
-[00:03:31.866] Server  ERROR    ⨯ ./app/layout.tsx
-Module not found: Can't resolve 'next/font/google/target.css'
-Unknown font
-
-Debug info:
-- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
-- Execution of resolve failed
-- Execution of resolve_internal failed
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown font
-Error while looking up import map: Unknown font
-
-Debug info:
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown font
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:03:32.234] Browser ERROR   uncaughtError: Error: ./app/layout.tsx
-Module not found: Can't resolve 'next/font/google/target.css'
-Unknown font
-
-Debug info:
-- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
-- Execution of resolve failed
-- Execution of resolve_internal failed
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown font
-Error while looking up import map: Unknown font
-
-Debug info:
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown font
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:03:32.477] Browser ERROR   ./app/layout.tsx
-Module not found: Can't resolve 'next/font/google/target.css'
-Unknown font
-
-Debug info:
-- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
-- Execution of resolve failed
-- Execution of resolve_internal failed
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown font
-Error while looking up import map: Unknown font
-
-Debug info:
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown font
-
-https://nextjs.org/docs/messages/module-not-found
-[00:03:32.588] Browser ERROR   ./app/layout.tsx
-Module not found: Can't resolve 'next/font/google/target.css'
-Unknown font
-
-Debug info:
-- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
-- Execution of resolve failed
-- Execution of resolve_internal failed
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown font
-Error while looking up import map: Unknown font
-
-Debug info:
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown font
-
-https://nextjs.org/docs/messages/module-not-found
-[00:07:24.897] Server  LOG      ✓ Compiled in 612ms
-[00:07:25.237] Server  ERROR    ⨯ ReferenceError: jetbrainsMono is not defined
-[00:07:26.496] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:07:26.810] Browser ERROR   uncaughtError: ReferenceError: jetbrainsMono is not defined
-[00:07:49.668] Server  ERROR    ⨯ ReferenceError: jetbrainsMono is not defined
-[00:07:50.306] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:07:50.795] Browser ERROR   uncaughtError: ReferenceError: jetbrainsMono is not defined
-[00:08:02.839] Server  WARN    Image with src "/back.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Import trace:
+  Server Component:
+    ./components/Menubar.tsx
+    ./components/Header.tsx
+    ./app/page.tsx
+[00:01:40.664] Server  LOG      ✓ Compiled in 34ms
+[00:01:41.195] Server  WARN    Image with src "/back.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
 Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:08:03.468] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:03.799] Browser WARN    Image with src "/back.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+[00:01:42.207] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:43.428] Browser WARN    Image with src "/back.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
 Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:08:03.799] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:27.185] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:27.420] Browser WARN    Image with src "/back.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+[00:01:52.416] Server  ERROR    ⨯ ReferenceError: Menuy is not defined
+[00:01:52.587] Server  LOG      ✓ Compiled in 23ms
+[00:01:53.428] Browser ERROR   uncaughtError: ReferenceError: Menuy is not defined
+[00:01:55.557] Server  WARN    Image with src "/back.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
 Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:08:27.420] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:47:48.167] Server  WARN    Image with src "/back.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+[00:01:55.723] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:01:56.154] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:56.331] Server  LOG      ✓ Compiled in 7ms
+[00:01:56.418] Browser WARN    Image with src "/back.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
 Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:47:49.461] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:47:49.886] Browser WARN    Image with src "/back.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+[00:01:58.161] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:58.461] Browser WARN    Image with src "/back.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
 Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:47:49.886] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:48:13.224] Server  WARN    Image with src "/back.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+[00:02:33.037] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:33.435] Browser WARN    Image with src "/back.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
 Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:48:14.567] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:48:15.108] Browser WARN    Image with src "/back.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
-Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:48:15.109] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.

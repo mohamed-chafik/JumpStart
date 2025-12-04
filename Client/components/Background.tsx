@@ -7,6 +7,7 @@ export default function Background() {
       width={1280}
       height={720}
       quality={100}
+      alt='background'
       />
     </>
   );
