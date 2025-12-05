@@ -1,8 +1,10 @@
-import Quote from './Quote.tsx';
-export default function Home(){
+import Quote from "./Quote.tsx";
+import Getstartedbtn from "./getstartedbtn.tsx";
+export default function Home() {
   return (
-  <>
-    <Quote />
+    <>
+      <Quote />
+      <Getstartedbtn />
     </>
   );
 }
