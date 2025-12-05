@@ -1,10 +1,10 @@
 import Quote from "./Quote.tsx";
-import Getstartedbtn from "./getstartedbtn.tsx";
+import Buttons from "./ui/Buttons.tsx";
 export default function Home() {
   return (
     <>
       <Quote />
-      <Getstartedbtn />
+      <Buttons />
     </>
   );
 }
