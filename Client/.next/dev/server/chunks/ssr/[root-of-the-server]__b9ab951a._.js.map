@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///home/simo/Projects/JumpStart/Client/app/Stack/components/Header.tsx"],"sourcesContent":["export default function Header() {\n  return (\n    <>\n      <div>\n        <h1>Create Your Project Setup</h1>\n      </div>\n    </>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE;kBACE,cAAA,8OAAC;sBACC,cAAA,8OAAC;0BAAG;;;;;;;;;;;;AAIZ"}},
+    {"offset": {"line": 45, "column": 0}, "map": {"version":3,"sources":["file:///home/simo/Projects/JumpStart/Client/app/Stack/page.tsx"],"sourcesContent":["import Header from \"./components/Header\";\nexport default function page() {\n  return (\n    <>\n      <div className=\"w-full h-[100vh] bg-[url('/back.png')] relative flex justify-center items-center flex-col\">\n        <Header />\n      </div>\n    </>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AACe,SAAS;IACtB,qBACE;kBACE,cAAA,8OAAC;YAAI,WAAU;sBACb,cAAA,8OAAC,gJAAM;;;;;;;;;;;AAIf"}}]
+}
