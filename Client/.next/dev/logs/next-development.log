@@ -1,92 +1,44 @@
-[00:00:02.076] Server  LOG      ✓ Ready in 1565ms
-[00:00:05.612] Server  LOG      ○ Compiling / ...
-[00:00:11.041] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:28:16.886] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:49:10.628] Server  LOG      ✓ Compiled in 31ms
-[00:54:35.189] Browser ERROR   ./app/Stack/components/Header.tsx:12:27
-Ecmascript file had an error
-  10 |     <>
-  11 |       <div>
-> 12 |         <h1 className={`${Kanit.classname}`}>Create Your Project Setup</h1>
-     |                           ^^^^^
-  13 |       </div>
-  14 |     </>
-  15 |   );
-
-Font loaders must be called and assigned to a const in the module scope
-
-Import trace:
-  Server Component:
-    ./app/Stack/components/Header.tsx
-    ./app/Stack/page.tsx
-[00:55:18.054] Server  LOG      ✓ Compiled in 33ms
-[00:58:35.179] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:06:53.238] Server  LOG      ✓ Compiled in 52ms
-[01:06:57.592] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:43:58.636] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:45:51.760] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:00:11.278] Server  LOG      ✓ Compiled in 53ms
-[03:00:12.189] Browser ERROR   ./app/Stack/Technologies.tsx:7:11
+[00:00:02.012] Server  LOG      ✓ Ready in 1551ms
+[00:00:08.208] Server  LOG      ○ Compiling / ...
+[00:00:15.324] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:44.548] Server  LOG      ○ Compiling /Stack ...
+[00:00:44.862] Server  ERROR   Invalid DOM property `stop-color`. Did you mean `stopColor`?
+[00:00:44.863] Server  ERROR   Invalid DOM property `stop-opacity`. Did you mean `stopOpacity`?
+[00:00:45.268] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:45.483] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
+[00:00:45.483] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-opacity stopOpacity
+[01:03:21.528] Server  LOG      ✓ Compiled in 0ms
+[01:03:21.881] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[01:03:21.881] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[01:03:21.881] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[01:03:21.881] Browser ERROR   uncaughtError: Error: The `style` prop expects a mapping from style properties to values, not a string. For example, style={{marginRight: spacing + 'em'}} when using JSX.
+[01:04:40.391] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:04:41.290] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:52:38.879] Browser ERROR   ./app/Stack/Technologies.tsx:19:21
 Parsing ecmascript source code failed
-   5 |     <h3 className='text-white text-[25px]'>Languages</h3>
-   6 |         <div>
->  7 |          <!-- Solid -->
-     |           ^
-   8 | <div class="flex w-full flex-wrap gap-2">
-   9 |   <button class="btn [--btn-color:#1877F2] text-white" >
-  10 |     <span class="icon-[tabler--brand-facebook] size-4.5 shrink-0"></span> Facebook
+  17 |               <div className="w-12 h-12 flex items-center justify-center absolute inset-x-0 top-0 ml-6 mt-6">
+  18 |                <Image src='/frontend.png' >
+> 19 |               </div>
+     |                     ^
+> 20 |
+     | ^
+> 21 |               {/* Text */}
+     | ^^^^^^^^^^^^^^^
+  22 |               <div className="mt-4 text-left w-full mb-3">
+  23 |                 <h2 className="text-2xl roboto-mono-500 text-gray-800 dark:text-white">
+  24 |                   Laravel
 
-Expected '</', got '!'
+Expected '</', got 'jsx text (
+
+              )'
 
 Import trace:
   Server Component:
     ./app/Stack/Technologies.tsx
     ./app/Stack/page.tsx
-[03:00:35.328] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[03:05:01.655] Server  LOG      ✓ Compiled in 46ms
-[03:05:02.189] Browser ERROR   ./app/Stack/Technologies.tsx:7:10
-Parsing ecmascript source code failed
-   5 |     <h3 className='text-white text-[25px]'>Languages</h3>
-   6 |         <div className='w-full h-fit'>
->  7 |         <!-- From Uiverse.io by OfficialRushO --> 
-     |          ^
-   8 | <button
-   9 |   class="cursor-pointer text-black flex gap-2 items-center bg-white px-4 py-2 rounded-lg font-medium text-sm hover:bg-zinc-300 transition-all ease-in duration-200"
-  10 | >
-
-Expected '</', got '!'
-
-Import trace:
-  Server Component:
-    ./app/Stack/Technologies.tsx
-    ./app/Stack/page.tsx
-[03:05:53.375] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
-[03:05:54.175] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:05:54.487] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[03:06:23.709] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:06:23.934] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[03:06:31.169] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:06:40.048] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:06:40.341] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[03:06:57.142] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:07:46.750] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:07:52.119] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:19:35.374] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:24:35.407] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:25:29.237] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:27:08.839] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:31:13.024] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:41:56.191] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:48:46.133] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:49:29.494] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:49:57.102] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:55:09.189] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
-[03:55:09.189] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-opacity stopOpacity
-[03:58:23.602] Server  ERROR   Invalid DOM property `stop-color`. Did you mean `stopColor`?
-[03:58:23.603] Server  ERROR   Invalid DOM property `stop-opacity`. Did you mean `stopOpacity`?
-[03:58:24.179] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:58:25.189] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
-[03:58:25.189] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-opacity stopOpacity
-[04:02:41.606] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[04:02:41.874] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
-[04:02:41.874] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-opacity stopOpacity
+[03:53:00.680] Server  LOG      ✓ Compiled in 342ms
+[03:53:01.884] Browser ERROR   uncaughtError: Error: Image with src "/frontend.png" is missing required "width" property.
+[03:53:19.095] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:53:19.470] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[04:03:13.347] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:03:14.048] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
