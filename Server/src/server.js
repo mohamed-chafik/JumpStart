@@ -1,20 +1,28 @@
-const express = require('express');
+import express from "express";
+import OpenAI from "openai";
+import "dotenv/config";
 const app = express();
 const port = 8080;
-import OpenAI from "openai";
-app.get('/', (req, res) => {
 
 const openai = new OpenAI({
-  apiKey: "",
+  apiKey: process.env.OPENAI_API_KEY,
 });
 
-const response = openai.responses.create({
-  model: "gpt-5-nano",
-  input: "write a haiku about ai",
-  store: true,
-});
+app.get("/", async (req, res) => {
+  try {
+    const response = await openai.responses.create({
+      model: "gpt-5-nano",
+      input: "create a script that create this structure automaticaly on linux",
+      store: true,
+    });
 
-response.then((result) => console.log(result.output_text));
+    console.log(response);
+
+    res.send(response.output_text ?? "No output");
+  } catch (error) {
+    console.error(error);
+    res.status(500).send("OpenAI connection error");
+  }
 });
 
 app.listen(port, () => {
