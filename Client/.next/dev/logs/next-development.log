@@ -1,44 +1,79 @@
-[00:00:02.012] Server  LOG      ✓ Ready in 1551ms
-[00:00:08.208] Server  LOG      ○ Compiling / ...
-[00:00:15.324] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:44.548] Server  LOG      ○ Compiling /Stack ...
-[00:00:44.862] Server  ERROR   Invalid DOM property `stop-color`. Did you mean `stopColor`?
-[00:00:44.863] Server  ERROR   Invalid DOM property `stop-opacity`. Did you mean `stopOpacity`?
-[00:00:45.268] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:45.483] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
-[00:00:45.483] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-opacity stopOpacity
-[01:03:21.528] Server  LOG      ✓ Compiled in 0ms
-[01:03:21.881] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[01:03:21.881] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
-[01:03:21.881] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
-[01:03:21.881] Browser ERROR   uncaughtError: Error: The `style` prop expects a mapping from style properties to values, not a string. For example, style={{marginRight: spacing + 'em'}} when using JSX.
-[01:04:40.391] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[01:04:41.290] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:52:38.879] Browser ERROR   ./app/Stack/Technologies.tsx:19:21
+[00:00:02.164] Server  LOG      ✓ Ready in 1641ms
+[00:00:11.553] Server  LOG      ○ Compiling /Stack ...
+[00:00:14.634] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:30:53.550] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'path')
+[00:30:53.894] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'path')
+[00:31:59.388] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'path')
+[00:31:59.959] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:00.274] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'path')
+[00:32:24.147] Browser ERROR   ./app/Stack/Technologies.tsx:8:58
 Parsing ecmascript source code failed
-  17 |               <div className="w-12 h-12 flex items-center justify-center absolute inset-x-0 top-0 ml-6 mt-6">
-  18 |                <Image src='/frontend.png' >
-> 19 |               </div>
-     |                     ^
-> 20 |
-     | ^
-> 21 |               {/* Text */}
-     | ^^^^^^^^^^^^^^^
-  22 |               <div className="mt-4 text-left w-full mb-3">
-  23 |                 <h2 className="text-2xl roboto-mono-500 text-gray-800 dark:text-white">
-  24 |                   Laravel
+   6 |   weight: ["400"],
+   7 | });
+>  8 | export default function Technologies({path}: {path: Path}}) {
+     |                                                          ^
+   9 |   return (
+  10 |     <>
+  11 |       <div className="w-full h-fit p-[90px]">
 
-Expected '</', got 'jsx text (
-
-              )'
+Expected ',', got '}'
 
 Import trace:
   Server Component:
     ./app/Stack/Technologies.tsx
     ./app/Stack/page.tsx
-[03:53:00.680] Server  LOG      ✓ Compiled in 342ms
-[03:53:01.884] Browser ERROR   uncaughtError: Error: Image with src "/frontend.png" is missing required "width" property.
-[03:53:19.095] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:53:19.470] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[04:03:13.347] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[04:03:14.048] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:32:29.592] Server  LOG      ✓ Compiled in 39ms
+[00:32:29.743] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'icon')
+[00:32:30.304] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:30.527] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'icon')
+[00:53:32.690] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'icon')
+[00:53:33.228] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:53:33.548] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'icon')
+[00:54:48.360] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'name')
+[00:54:48.834] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:54:49.055] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'name')
+[00:57:42.595] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'icon')
+[00:57:43.078] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:57:43.299] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'icon')
+[00:58:06.954] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'icon')
+[00:58:07.407] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:58:07.653] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'icon')
+[01:03:43.565] Server  ERROR    ⨯ ReferenceError: p is not defined
+[01:03:44.349] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:03:44.876] Browser ERROR   uncaughtError: ReferenceError: p is not defined
+[01:04:00.495] Server  ERROR    ⨯ ReferenceError: p is not defined
+[01:04:01.004] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:04:01.288] Browser ERROR   uncaughtError: ReferenceError: p is not defined
+[01:04:03.785] Server  ERROR    ⨯ ReferenceError: p is not defined
+[01:04:04.287] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:04:04.566] Browser ERROR   uncaughtError: ReferenceError: p is not defined
+[01:04:22.776] Server  ERROR   An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+[01:04:23.162] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:04:23.374] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[01:04:23.374] Browser ERROR   Image is missing required "src" property: <img>
+[01:04:59.764] Server  ERROR   An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+[01:05:00.105] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:05:00.287] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[01:05:00.287] Browser ERROR   Image is missing required "src" property: <img>
+[01:36:23.929] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:38:21.673] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:38:23.768] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:40:28.368] Browser ERROR   ./app/Stack/page.tsx:14:12
+Parsing ecmascript source code failed
+  12 |           <Technologies key={p.id} path={p} /> // ✅ Correct
+  13 |
+> 14 |           </div>
+     |            ^^^^^
+  15 |       </div>
+  16 |     </>
+  17 |   );
+
+Unterminated regexp literal
+[01:40:48.951] Server  LOG      ✓ Compiled in 41ms
+[01:44:29.716] Server  LOG      ✓ Compiled in 230ms
+[01:46:06.165] Server  LOG      ○ Compiling / ...
+[01:46:07.311] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:46:14.014] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:47:17.472] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:49:05.760] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/app-developement.png" "received" null
+[03:51:21.197] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
